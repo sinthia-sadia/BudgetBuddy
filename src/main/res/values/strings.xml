@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BudgetBuddy</string>
+
+    <string-array name="filter_options">
+        <item>All</item>
+        <item>Today</item>
+        <item>This Week</item>
+        <item>This Month</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="delete_expense">Delete expense</string>
+
+    <!-- Add these -->
+    <string name="total_placeholder">Total: ৳0.0</string>
+    <string name="alert_placeholder">Spending status</string>
+
+</resources>

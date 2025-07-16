@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.example.budgetbuddy.AddExpenseFragment"
+        android:label="Add Expense" >
+
+        <action
+            android:id="@+id/action_addExpense_to_dashboard"
+            app:destination="@id/nav_dashboard" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.budgetbuddy.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/nav_budget"
+        android:name="com.example.budgetbuddy.BudgetFragment"
+        android:label="Budget" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.budgetbuddy.ReportsFragment"
+        android:label="Reports" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.budgetbuddy.ProfileFragment"
+        android:label="Profile" />
+</navigation>

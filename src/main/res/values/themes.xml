@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BudgetBuddy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Manually color theme select kora jabe not using rn -->
+    </style>
+
+    <style name="Theme.BudgetBuddy" parent="Base.Theme.BudgetBuddy" />
+</resources>
